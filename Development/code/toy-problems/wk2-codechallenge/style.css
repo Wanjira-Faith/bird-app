@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ h1{
+  text-align: center;
+  background-color: chocolate;
+}
+.character-name {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+
+  .animal-list-item {
+    cursor: pointer;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
+
+  .character-details {
+    height: 50%;
+    text-align: center;
+    border: double;
+    font-size: 30px;
+  }
+  #votes{
+    padding: 5px;
+    font-size: 15px;
+  }
+  button{
+    background-color: chocolate;
+    font-size:20px ;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    border-style:  solid;
+    border: none;
+    margin-top: 13px;
+  }
